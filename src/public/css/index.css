@@ -24,13 +24,16 @@
   background-color: beige;
   color: darkgray;
   border-radius: 3px;
-  margin-left: 15px;
+  margin-left: 5px;
+  padding: 4px 6px; /* 添削で追加 */
 }
 
 .form__group--input input,
 .form__group--input textarea {
   padding: 15px;
   width: 500px;
+  border: 1px solid #ddd;/* 添削で追加 */
+  appearance: none; /* 添削で追加 */
 }
 
 .form__group--input input {
@@ -44,6 +47,7 @@
 .form__error {
   color: red;
   text-align: left;
+  /* height: 20px; 添削で追加 */
 }
 
 .form__button {
@@ -52,11 +56,11 @@
 } 
 
 .form__button-submit {
-  width: 150px;
+  width: 30%;
   height: 40px;
   background-color: black;
   color: white;
   border-radius: 3px;
   cursor: pointer;
-  padding: 6px 4px;
+  padding: 10px;
 }
